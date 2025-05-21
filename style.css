@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(image\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav ul a {
+    color: white;
+    background-color: #009FF5B5;
+    padding: 14px 20px;
+    border-radius: 10px;
+    box-sizing: 0px 4px 4px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav ul a:before {
+    content: url(image\ 4\ \(1\).png);
+}
+
+.header__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 604px;
+    color: #000;
+    margin: auto;
+    margin-top: 178px;
+    margin-bottom: 132px;
+    background-color: #FFC200;
+    height: 103px;
+    border-radius: 50px;
+    border: 11px solid #5A5555;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.header__box {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.box {
+    background-color: #1f1f1f;
+    text-align: center;
+    box-shadow: 8px 7px 20px 4px #FFFFFF;
+}
+
+.h1 {   
+    text-shadow: 10 px 10px 10px 10px #FFC200;
+}
+
+.header__content-end {
+    display: flex;
+    justify-content: center;
+    color: #5A5555;
+    margin-top: 58px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    text-shadow: 0px 4px 4px 0px #FFFFFF;
+}
+
+.header__end {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    width: 1200px;
+    height: 1042px;
+    margin-top: 123px;
+}
+
+.boxend {
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 1100px;
+    height: 320px;
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 86px;
+}
+
+.header-text-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 105px;
+    margin-top: 1px;
+    background-color: #FFC200;
+    width: 278px;
+    height: 61px;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+    transition: 0.5s;
+}
+
+.header__text-end a:hover {
+    background-color: #5A5555;
+    color: white;
+}
